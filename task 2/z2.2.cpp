@@ -8,7 +8,7 @@ int main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        proizv = proizv * i;
+        proizv *= i;
     }
     cout << proizv;
     return 0;
